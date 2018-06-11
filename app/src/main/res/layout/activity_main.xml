@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.zhoukao01.MainActivity">
+
+   <com.example.zhoukao01.TitleView
+       android:layout_width="match_parent"
+       android:layout_height="40dp"></com.example.zhoukao01.TitleView>
+
+
+    <com.example.zhoukao01.FlowLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="80dp">
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+        <TextView
+          android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="面试"
+
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Studio3"
+
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="动画"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义View"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性能优化 速度"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera 相机"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="代码混淆 安全"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            />
+        <!--代码混淆 安全-->
+        <!--逆向 加固-->
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="逆向 加固"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            />
+    </com.example.zhoukao01.FlowLayout>
+</LinearLayout>
